@@ -2,7 +2,7 @@
 
 namespace Laboratorio3
 {
-    class ProgramLAB3
+    class Program
     {
         static void Main(string[] args)
         {
@@ -17,7 +17,7 @@ namespace Laboratorio3
             curso = Console.ReadLine();
 
             Console.WriteLine("Lab de Pensamiento Computacional");
-            Console.WriteLine(nombre + ", vas muy bien en el curso: " + curso);
+            Console.WriteLine(nombre + ", vas muy bien en el curso " + curso);
             Console.WriteLine("Nunca dejes de practicar");
 
             Console.WriteLine("Hoy es un buen día para no ser adminsitrador de empresas");
